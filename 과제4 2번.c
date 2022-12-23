@@ -4,7 +4,7 @@ int main(void)
 {
 	int num;
 	int nsum=0;
-	printf("¾çÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À:");
+	printf("ì–‘ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤:");
 	scanf_s("%d", &num);
 
 	while (num) {
@@ -12,6 +12,6 @@ int main(void)
 		num /= 10;
 	}
 
-	printf("°¢ ÀÚ¸®¼öÀÇ ÇÕÀº %dÀÔ´Ï´Ù.\n", nsum);
+	printf("ê° ìë¦¬ìˆ˜ì˜ í•©ì€ %dì…ë‹ˆë‹¤.\n", nsum);
 	return 0;
 }
