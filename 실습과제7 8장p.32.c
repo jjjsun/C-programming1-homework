@@ -23,7 +23,7 @@ int combination(int n, int r)
 int get_integer(void)
 {
 	int n;
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À:");
+	printf("ÃÂ¤Â¼Ã¶Â¸Â¦ Ã€Ã”Â·Ã‚Ã‡ÃÂ½ÃƒÂ¿Ã€:");
 	scanf_s("%d", &n);
 	return n;
 }
